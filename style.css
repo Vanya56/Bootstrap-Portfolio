@@ -1,0 +1,132 @@
+  /* Remove the navbar's default margin-bottom and rounded borders */ 
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    
+    top: 10px;
+    
+  }
+
+  .container {
+    padding: 50px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 100px 150px 100px 150px;
+}
+
+  .pic {
+    height: 200px;
+    width: 150px;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+     
+}
+  
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {height: 450px}
+  
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+  }
+  
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+    
+  }
+  
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  /* @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
+  } */
+
+
+
+ .btn-default {
+  background-color: #4aaaa4;
+  color: white;
+  font-size: 1.7m;
+  padding: 10px;
+  float: left;
+
+} 
+
+.btn-default_1 {
+  float: right;
+  color: #4aaaa4;
+}
+
+.btn-default_2 {
+  float: right;
+  color: #4aaaa4;
+}
+
+.btn-default_3 {
+  float: right;
+  color: #4aaaa4;
+}
+
+
+#portfolio { 
+  padding-right: 50px;
+  border-style: solid;
+  border-color: #dddddd;
+  float: right;
+  align-content: row;
+}
+
+
+.box { 
+  padding: 10px 10px 10px 10px;
+  background-color: #4aaaa4;
+  border-width: 10px 10px 10px 10px;
+  position: relative;
+  bottom: 50px;
+  width: 150px;
+} 
+
+
+img {
+  height: 150px;
+  width: 150px;
+ 
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  
+
+}
+
+h1 {
+  color: #4aaaa4;
+  font-family: 'Times New Roman', Times, serif;
+ 
+}
+
+
+.line {
+   
+  border-style: solid;
+  border-color: #dddddd;
+  border-width: 1px;
+}
+
+.navbar-brand {
+  background: #4aaaa4;
+  padding: 25px;
+  
+} 
